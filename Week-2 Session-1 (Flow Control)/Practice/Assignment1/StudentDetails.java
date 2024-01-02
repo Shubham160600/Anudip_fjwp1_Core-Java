@@ -1,3 +1,5 @@
+/* Write a program to display the student details(Average>70,Age>21) using if else(Satisfying both condition). */
+
 import java.util.Scanner;
 
 public class StudentDetails {
