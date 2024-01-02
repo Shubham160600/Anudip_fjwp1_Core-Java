@@ -1,3 +1,10 @@
+/* 
+● Create a Java Bean Class Student.
+● Add three attributes ○ private String name; ○ private int age; ○ private String department;
+● Add a constructor that takes all three attributes as parameters.
+● Add setter and getter methods
+● Compile the program. */
+
 //package Student_Java_Bean_Class;
 
 public class Student {
