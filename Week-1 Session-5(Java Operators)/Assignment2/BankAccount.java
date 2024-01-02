@@ -1,3 +1,26 @@
+/* 
+Write a Java program that allows the user to create a bank account and
+perform transactions such as deposit, withdrawal, and balance inquiry. Using a
+conditional operator (ternary operator ), display the message whether minimum balance
+is maintained or not.
+Steps:
+● Create a class BankAccount
+● Add three member variables: String accountHolderName , int accountNumber
+and int balance;
+● Add a constructors using all three members
+● Add getters and setters.
+● Add method deposit (int), withdraw(int)
+● Implement the methods by increasing or decreasing the balance
+● In the main method create a bank account
+● Withdraw money from this account and/or deposit into this account
+● Get the balance
+● Create a string variable “status” inside the main method
+● Assign values to status as “Minimum Balance Maintained” if balance is above or
+equal to 5000. Otherwise values of status will be “Minimum Balance not
+Maintained”. Use conditional operator (ternary operator ) to assign the values of
+the status.
+● Display the status. */
+
 public class BankAccount {
     private String accountHolderName;
     private int accountNumber;
