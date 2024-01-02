@@ -1,3 +1,5 @@
+/* Write a program to the pass by value concept. */
+
 public class PassByValue {
     public static void main(String[] args) {
         int num = 10;
