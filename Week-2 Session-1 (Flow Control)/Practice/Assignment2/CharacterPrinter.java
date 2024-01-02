@@ -1,3 +1,5 @@
+/* Write a program to print A for Apple,B for Boy,C for cat,D for Dog,E for Elephant using switch case. */
+
 public class CharacterPrinter {
     public static void main(String[] args) {
         char character = 'C';
