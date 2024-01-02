@@ -1,4 +1,11 @@
-//package shubham;
+/* 
+● Create a BankAccount class that.
+● BankAccount class should have three fields accoundHolderName (String), bankName(String), accountBalance(double).
+● Create a constructor that takes account holder’s name, bankname and initial balance.
+● Add three methods to the interface - getBalance(), deposit() and withdraw().
+● Implement all three methods.
+● In the main method create three bank accounts withdifferent account holders names and ICICI, HDFC and SBI as banknames.
+● Deposit and withdraw money for each account. Displaytheaccount balance. */
 
 interface BankOperations {
     double getBalance();
