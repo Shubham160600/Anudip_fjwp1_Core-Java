@@ -1,3 +1,6 @@
+/* Display the number of days in the month for all the months in the year if the months having the same number of days, it must be 
+print together using switch case. */
+
 public class DaysInMonth {
     public static void main(String[] args) {
         int month = 2; // Example: 1 for January, 2 for February, etc.
