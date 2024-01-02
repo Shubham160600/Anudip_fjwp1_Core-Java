@@ -1,4 +1,4 @@
-//package shubham;
+/* Write a program to pass the value by reference. */
 
 class MyNumber {
     int value;
