@@ -1,4 +1,8 @@
-//package shubham;
+/* 
+● Write a Java program that demonstrates method overridingbycreating a superclass called Animal and two subclasses calledDogand Cat.
+● The Animal class should have a method called makeSound(), whichsimply prints "The animal makes a sound".
+● The Dog and Cat classes should override this method to print "TheCat/The dog meows/barks" respectively.
+● The program should allow the user to create and display objects of each class. */
 
 import java.util.Scanner;
 
