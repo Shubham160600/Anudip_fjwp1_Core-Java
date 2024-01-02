@@ -1,4 +1,14 @@
-//package shubham;
+/* 
+Write a program to find out all the armstrong numbers within a given
+range using a method named printArmstrongNumber( int start, int
+end) by taking input from the user. The program should print the
+Armstrong number in a given range starting from “start” and ending
+with “end”.
+Armstrong Number Example: 153 13+53+33 =153 (Number which is equal
+to the sum of the cubes of its digits)
+Note: input should be taken from the keyboard. Use a loop to calculate the
+Armstrong number from “start” to “end”. Also use loops to calculate the
+cube of a number. Do not use the Math.pow() function. */
 
 import java.util.Scanner;
 
