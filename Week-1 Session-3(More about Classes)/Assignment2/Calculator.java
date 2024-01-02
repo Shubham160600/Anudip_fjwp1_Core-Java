@@ -1,4 +1,10 @@
-package shubham;
+/* 
+● Write a Java program that demonstrates method overloading by creating a class called Calculator.
+● Add three methods called add().
+● The first add() method should take two int variables as arguments and return their sum as int.
+● The second add() method should take three int variables as arguments and return their sum as int.
+● The third add() method should take two doubles as arguments and return their sum as double.
+● The program should allow the user to display the results of each method. */
 
 import java.util.Scanner;
 
