@@ -1,3 +1,10 @@
+/* 
+Write a program to enter marks of five subjects and calculate total
+marks and average. Each subject has a full mark of 100. Give grades
+based on average marks. Grades should be Ex (>90%), A (>80%) ,
+B(>60%) ,C (>=40%) and F(<40%). Use the Scanner class to take
+inputs from the console. */
+
 import java.util.Scanner;
 
 public class GradeCalculator {
