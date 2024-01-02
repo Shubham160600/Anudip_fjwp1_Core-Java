@@ -1,4 +1,12 @@
-package Shubh;
+/* 
+Create a class called Student. Inside the Student class, implement the following instance variables (fields):
+● String name
+● int age
+● String department Implement the following constructors in the Student class:
+● A default constructor that initializes the name to "Unknown", age to 20, and department to "Unassigned".
+● A constructor that takes two parameters: name and age, and initializes the department to "IT".
+● A constructor that takes three parameters: name, age, and department. In the Main class, create instances of the Student class using 
+each constructor. Printoutthedetailsofeachstudent, includingtheirname, age, and department. */
 
 public class Main {
     public static void main(String[] args) {
