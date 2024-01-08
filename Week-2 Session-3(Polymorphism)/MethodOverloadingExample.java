@@ -19,7 +19,7 @@ public class MethodOverloadingExample {
 
 class Figure {
     // Return Area of a Rectangular Figure
-    double getArea(double l, int b) { //two double parameters, return type double
+    double getArea(double l, int b) { // Two double parameters, return type double
         return (l * b);
     }
 
