@@ -1,5 +1,5 @@
 /* throw and throws keywords.
- * throw. */
+ * throw keywords. */
 
 package shubham;
 
