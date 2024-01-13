@@ -1,4 +1,8 @@
-/* Employee Class Example. */
+/* Write a program to define an employee class. The class should have three attributes - employeeID (int) and empolyeeName (String). 
+Add a constructor. Overwrite the equals() method so that two employees will be equal if their employeeID are the same. 
+Do not add any hashCode() method. Now create three employee instances with different employeeID. Create a HashSet object and add all 
+these three employees to the set. Create another employee with the same employeeID of the first employee. Add this employee to the 
+hashset. Observe if the employee is added or not. Print all the employees added in the hashset. */
 
 package shubham;
 
