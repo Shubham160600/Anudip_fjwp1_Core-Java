@@ -1,3 +1,5 @@
+/* example of how wait(). */
+
 package shubham;
 
 public class WaitExample {
