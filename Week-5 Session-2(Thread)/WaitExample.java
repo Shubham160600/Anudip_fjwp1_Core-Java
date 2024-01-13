@@ -1,4 +1,4 @@
-/* example of how wait(). */
+/* Example of how wait(). */
 
 package shubham;
 
