@@ -1,4 +1,5 @@
-/* Threads with Different Priorities. */
+/* Create three threads: Low, Medium, and High priority. Implement a scenario where each thread prints its name and sleeps for a duration.
+Adjust the sleep durations based on thread priorities to observe the effects of priority on thread scheduling. */
 
 package shubham;
 
