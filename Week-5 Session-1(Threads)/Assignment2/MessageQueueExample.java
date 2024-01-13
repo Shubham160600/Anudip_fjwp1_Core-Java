@@ -1,4 +1,6 @@
-/* Messaging System with Shared Queue. */
+/* Create a messaging system with a shared message queue. Implement two threads: a sender thread that adds messages to the queue and a 
+receiver thread that removes messages from the queue. Use wait() and notifyAll() to ensure that the sender waits if the queue is full and 
+the receiver waits if the queue is empty. */
 
 package shubham;
 
