@@ -22,3 +22,9 @@ public class ReverseListExample {
         System.out.println("Reversed List: " + stringList);
     }
 }
+
+/* Output:-
+
+Original List: [Apple, Banana, Orange, Grapes]
+Reversed List: [Grapes, Orange, Banana, Apple]
+*/
