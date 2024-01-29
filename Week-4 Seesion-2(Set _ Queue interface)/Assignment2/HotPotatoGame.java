@@ -3,44 +3,41 @@
 ● Create a queue to represent the circle of players. 
 ● Enqueue player names. 
 ● Dequeue players one by one and enqueue them again to simulate passing the potato. 
-● Repeat the dequeue and enqueue process, simulating the music stopping and players being eliminated until only one player remains. */
+● Repeat the dequeue and enqueue process, simulating the music stopping and players being eliminated until only one player 
+remains. */
 
 package shubham;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class HotPotatoGame {
-    public static void main(String[] args) {
-        // Create a queue to represent the circle of players
-        Queue<String> playerQueue = new LinkedList<>();
+public class HotPotatoGame 
+{
+    public static void main(String[] args)
+    {
+        Queue<String> playersQueue = new LinkedList<>();
+        String[] playerNames = {"Alice", "Bob", "Charlie", "David", "Eve"};
 
-        // Enqueue player names
-        playerQueue.add("Player1");
-        playerQueue.add("Player2");
-        playerQueue.add("Player3");
-        playerQueue.add("Player4");
-        playerQueue.add("Player5");
-
-        // Simulate passing the potato until only one player remains
-        while (playerQueue.size() > 1) {
-            String currentPlayer = playerQueue.poll();
-            System.out.println(currentPlayer + " has the potato!");
-
-            // Simulate some delay (you can replace this with actual music playing logic)
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            System.out.println(currentPlayer + " is out!");
-
-            // Enqueue the player again to simulate passing the potato
-            playerQueue.add(currentPlayer);
+        // Enqueue player names to create the initial circle
+        for (String playerName : playerNames)
+        {
+            playersQueue.offer(playerName);
         }
 
-        // The remaining player is the winner
-        System.out.println("Winner: " + playerQueue.poll());
+        int passes = 3; // Simulate passing the potato 3 times
+        while (playersQueue.size() > 1) 
+        {
+            for (int i = 0; i < passes - 1; i++)
+            {
+                // Dequeue and enqueue to simulate passing the potato
+                playersQueue.offer(playersQueue.poll());
+            }
+            
+            // The player holding the potato is eliminated
+            System.out.println(playersQueue.poll() + " is out!");
+        }
+
+        // The last player remaining wins
+        System.out.println("Winner: " + playersQueue.poll());
     }
 }
