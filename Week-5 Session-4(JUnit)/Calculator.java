@@ -1,3 +1,5 @@
+/* Black box. */
+
 package shubham;
 
 public class Calculator {

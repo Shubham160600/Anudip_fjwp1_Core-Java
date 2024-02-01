@@ -1,4 +1,4 @@
-/* Black box & White box testing. */
+/* Black box. */
 
 package shubham;
 
